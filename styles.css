@@ -172,7 +172,7 @@ hr {
 }
 
 .buy-product {
-  width: 20%; /* Ficou faltando 4% para 100% de width: para deixar as bordas sobrando um pouco */
+  width: 20%;
 }
 
 
@@ -203,7 +203,7 @@ hr {
 }
 
 .product-image {
-  width: 140px; /* Flex wrap coloca 2 posters por linha, pq a seção tem 600px */
+  width: 140px;
   height: 140px;
 }
 
@@ -237,7 +237,6 @@ hr {
   color: var(--orange);
 }
 
-/* tabela carrinho de compras */
 .cart-table {
   width: 100%;
   border-collapse: collapse;
@@ -334,7 +333,6 @@ hr {
 
 
 
-/* Responsividade */
 @media (max-width: 584px) {
   .atacado-name-large {
     font-size: 36px;

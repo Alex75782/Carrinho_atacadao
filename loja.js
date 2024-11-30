@@ -13,13 +13,13 @@ function ready() {
     removeCartProductButtons[i].addEventListener("click", removeProduct)
   }
 
-  // Mudança valor dos inputs
+  // Mudança valor
   const quantityInputs = document.getElementsByClassName("product-qtd-input")
   for (var i = 0; i < quantityInputs.length; i++) {
     quantityInputs[i].addEventListener("change", checkIfInputIsNull)
   }
 
-  // Botão add produto ao carrinho
+  // Botão adicionar produto ao carrinho
   const addToCartButtons = document.getElementsByClassName("button-hover-background")
   for (var i = 0; i < addToCartButtons.length; i++) {
     addToCartButtons[i].addEventListener("click", addProductToCart)
@@ -102,7 +102,7 @@ function makePurchase() {
   }
 }
 
-// Atualizar o valor total do carrinho
+// Atualiza o valor total do carrinho
 function updateTotal() {
   const cartProducts = document.getElementsByClassName("cart-product")
   totalAmount = 0
